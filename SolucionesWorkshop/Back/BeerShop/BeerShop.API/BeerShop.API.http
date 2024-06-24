@@ -1,0 +1,6 @@
+@BeerShop.API_HostAddress = http://localhost:5132
+
+GET {{BeerShop.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

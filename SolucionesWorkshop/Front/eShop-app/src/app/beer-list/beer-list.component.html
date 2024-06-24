@@ -1,0 +1,21 @@
+<table>
+  <thead>
+    <th>Nombre</th>
+    <th>Lema</th>
+    <th>APV</th>
+    <th>Primera Producción</th>
+    <th>Actions</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let beer of beers">
+      <td><a [routerLink]="['/beer', beer.id]">{{beer.nombre}}</a></td>
+      <td>{{beer.lema}}</td>
+      <td>{{beer.alcoholPorVolumen}}</td>
+      <td>{{ beer.primeraProduccion}}</td>
+      <td>
+        <!-- <button (click)="updateBeer(beer)">Update</button> -->
+        <button (click)="deleteBeer(beer)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,30 @@
+.beer-detail {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .beer-detail h2 {
+    margin: 0 0 10px 0;
+    color: #333;
+  }
+  
+  .beer-detail .beer-type {
+    font-size: 18px;
+    color: #666;
+    margin: 0 0 20px 0;
+  }
+  
+  .beer-detail .beer-image {
+    width: 8%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .beer-detail .beer-description {
+    font-size: 16px;
+    color: #333;
+  }
