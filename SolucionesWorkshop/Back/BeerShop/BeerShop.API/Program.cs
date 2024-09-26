@@ -24,11 +24,13 @@ builder.Services.AddCors(options =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+
+//if (app.Environment.IsDevelopment())
+//{
+    //Activamos swagger para poder verlo desplegado en el api del workshop
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
 
 app.UseCors("MyPolicy");
 
