@@ -34,6 +34,8 @@ app.UseCors("MyPolicy");
 
 app.UseHttpsRedirection();
 
+app.UseStaticFiles();
+
 app.UseAuthorization();
 
 app.MapControllers();
